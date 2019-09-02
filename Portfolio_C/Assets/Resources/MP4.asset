@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29462c030d039244bcb2aaae930e1c1, type: 3}
   m_Name: MP4
   m_EditorClassIdentifier: 
-  amount: 0
-  damage: 0
+  amount: 20
+  damage: 5
