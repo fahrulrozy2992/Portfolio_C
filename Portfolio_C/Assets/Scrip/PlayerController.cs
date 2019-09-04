@@ -7,7 +7,7 @@ namespace Car_Shooter
 {
     public class PlayerController : MonoBehaviour
     {
-
+        public GunRotate gunrotate;
         void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("ShopTigger"))

@@ -22,7 +22,7 @@ namespace Car_Shooter
 
         public void SetOnclick(PlayerController pc)
         {
-            GetComponent<Button>();
+            GetComponent<Button>().onClick.AddListener(delegate { pc.gunrotate.ChangeWeapon(weaponData); });
         }
     }
 }
